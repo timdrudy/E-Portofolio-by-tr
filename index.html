@@ -25,7 +25,7 @@
                 <img id="personal-logo" src="./assets/timlogo.jpeg" alt="">
             </figure>
             <ul class="nav__link--list">
-                <li class="nav__link">
+                <li class="nav__link" onclick="toggleModal()">
                     <a href="#" 
                     class="nav__link--anchor 
                     link__hover-effect
@@ -39,14 +39,14 @@
                     link__hover-effect--black">
                     Projects</a>
                 </li>
-                <li class="nav__link">
+                <li class="nav__link" onclick="toggleModal()">
                     <a href="#" 
                     class="nav__link--anchor 
                     link__hover-effect
                     link__hover-effect--black">
                     Contact</a>
                 </li>
-                <li class="nav__link click">
+                <li class="nav__link click" onclick="toggleContrast()">
                     <a href="#" 
                     class="nav__link--anchor 
                     link_hover-effect
@@ -63,7 +63,7 @@
                 <p class="header__para">
                     I'm a <b class="green">Frontend Software Engineer</b> with a passion for excellent user experiences.
                     <br>
-                    Here's a bit more <b class="green">about me</b>.
+                    Here's a bit more <b class="green click" onclick="toggleModal()">about me</b>.
                 </p>
                 <div class="social__list">
                     <a href="https://www.linkedin.com/in/tim-rudy-frontend" target="_blank" class="social__link click">
@@ -77,7 +77,7 @@
                 </div>
             </div>
         </header>
-        <button class="mail__btn click">
+        <button class="mail__btn click" onclick="toggleModal()">
             <i class="fa-solid fa-envelope"></i>
         </button>
         <a href="#projects" class="scroll">
@@ -119,6 +119,7 @@
                 </div>
                 </div>
             <div class="modal__half modal__contact">
+                <i class="fa-solid fa-xmark modal__exit click" onclick="toggleModal()"></i>
                 <h3 class="modal__title modal__title--contact">
                     Let's chat.
                 </h3>
@@ -152,7 +153,6 @@
                     Thanks for contacting me! Looking forward to speaking to you soon.
                 </div>
             </div>
-            <i class="fa-solid fa-xmark modal__exit click"></i>
         </div>
     </section>
     <section id="projects">
