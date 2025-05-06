@@ -27,13 +27,13 @@ button {
 }
 
 section {
-    background-color: rgb(245, 245, 245);
+    background-color: #ffffff;
     transition: all 300ms ease;
 }
 
 input, textarea {
     width: 100%;
-    background-color: #242424;
+    background-color: #000000;
     color: #fff;
     outline: none;
     border: 3px solid #c0c4cc;
@@ -120,7 +120,7 @@ input:focus, textarea:focus {
 }
 
 .link__hover-effect--black:after {
-    background-color: #242424;
+    background-color: #000000;
 }
 
 .link__hover-effect:hover:after {
@@ -154,7 +154,7 @@ nav,
 }
 
 .dark-theme section {
-    background-color: #242424;
+    background-color: #000000;
 }
 
 .dark-theme #personal-logo {
@@ -238,7 +238,7 @@ LANDING PAGE
 .scroll__icon {
     width: 20px;
     height: 30px;
-    border: 2px solid #242424;
+    border: 2px solid #000000;
     border-radius: 24px;
     display: flex;
     align-items: center;
@@ -249,7 +249,7 @@ LANDING PAGE
     content: "";
     width: 4px;
     height: 6px;
-    background-color: #242424;
+    background-color: #000000;
     border-radius: 2px;
     animation: scroll 1000ms infinite alternate-reverse;
 }
@@ -295,7 +295,7 @@ nav {
 
 .nav__link--anchor {
     font-size: 16px;
-    color: #242424;
+    color: #000000;
     font-weight: 700;
 }
 
@@ -347,7 +347,7 @@ MODAL
 }
 
 .modal__about {
-    background-color: rgb(245, 245, 245);
+    background-color: #ffffff;
     transform: translateX(-110%)
 }
 
@@ -387,7 +387,7 @@ MODAL
 }
 
 .modal__contact {
-    background-color: #242424;
+    background-color: #000000;
     color: white;
     transform: translateX(110%);
 }
@@ -445,7 +445,7 @@ MODAL
 }
 
 .modal__overlay--loading {
-    background-color: #242424;
+    background-color: #000000;
     font-size: 80px;
 }
 
@@ -580,7 +580,7 @@ FOOTER
 
 footer {
     position: relative;
-    background-color: #242424;
+    background-color: #000000;
     display: flex;
     padding: 6% 0;
 }
